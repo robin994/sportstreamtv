@@ -20,12 +20,12 @@ import android.os.Bundle;
 /*
  * MainActivity class that loads {@link MainFragment}.
  */
-public class MainActivity extends Activity {
+public class MainActivityTV extends Activity {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main_list);
+        setContentView(R.layout.activity_main);
 
     }
 }
