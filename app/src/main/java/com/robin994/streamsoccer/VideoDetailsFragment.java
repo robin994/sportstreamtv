@@ -27,10 +27,7 @@ import android.support.v17.leanback.widget.ClassPresenterSelector;
 import android.support.v17.leanback.widget.DetailsOverviewRow;
 import android.support.v17.leanback.widget.FullWidthDetailsOverviewRowPresenter;
 import android.support.v17.leanback.widget.FullWidthDetailsOverviewSharedElementHelper;
-import android.support.v17.leanback.widget.HeaderItem;
 import android.support.v17.leanback.widget.ImageCardView;
-import android.support.v17.leanback.widget.ListRow;
-import android.support.v17.leanback.widget.ListRowPresenter;
 import android.support.v17.leanback.widget.OnActionClickedListener;
 import android.support.v17.leanback.widget.OnItemViewClickedListener;
 import android.support.v17.leanback.widget.Presenter;
@@ -39,18 +36,11 @@ import android.support.v17.leanback.widget.RowPresenter;
 import android.support.v4.app.ActivityOptionsCompat;
 import android.support.v4.content.ContextCompat;
 import android.util.Log;
-import android.widget.Toast;
-
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.resource.drawable.GlideDrawable;
 import com.bumptech.glide.request.animation.GlideAnimation;
 import com.bumptech.glide.request.target.SimpleTarget;
-import com.robin994.streamsoccer.Data.Entry;
 import com.robin994.streamsoccer.Data.Url;
-import com.robin994.streamsoccer.Data.UrlList;
-
-import java.util.Collections;
-import java.util.List;
 
 /*
  * LeanbackDetailsFragment extends DetailsFragment, a Wrapper fragment for leanback details screens.
@@ -79,6 +69,7 @@ public class VideoDetailsFragment extends DetailsFragment {
     public void onCreate(Bundle savedInstanceState) {
         Log.d(TAG, "onCreate DetailsFragment");
         super.onCreate(savedInstanceState);
+
 
         mDetailsBackground = new DetailsFragmentBackgroundController(this);
 
