@@ -23,10 +23,7 @@ public class PreparingDataTask extends AsyncTask<Void, Void, ArrayObjectAdapter>
 
     private ArrayObjectAdapter toReturn;
     private String[] sources = {
-            "https://www.reddit.com/r/soccerstreams/new/.rss",
-            "https://www.reddit.com/r/motorsportsstreams/new/.rss",
-            "https://www.reddit.com/r/soccerstreams_other/new/.rss",
-            "https://www.reddit.com/r/SoccerStreaming/.rss"
+            "https://www.reddit.com/r/SoccerstreamsOnline/new/.rss"
 
     };
 
